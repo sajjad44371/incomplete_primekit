@@ -1,0 +1,234 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    header{
+		padding: 15px 0;
+	}
+	.logo {
+    	width: 95%;
+	}
+	.menu ul li a {
+    	    padding: 5px 55px 5px 0 !important;
+	}
+	.btn_get {
+	    font-size: 16px;
+	    padding: 12px 0 0;
+	    width: 170px;
+	    height: 50px;
+	}
+
+	/*help start*/
+	.help {
+    	padding: 35px 0 70px;
+	}
+	.h_h1{
+		padding: 0 0 10px;
+		font-size: 30px;
+	}
+
+	/*search start*/
+	.search{
+		padding: 50px 0 70px;
+	}
+	.cmn_h1{
+		font-size: 30px;
+		line-height: 45px;
+	}
+	.s_h3 {
+    	font-size: 17px;
+	}
+	.s_p {
+    	padding: 0;
+	}
+	.s_icon i {
+    	top: 16px;
+    	left: 7px;
+	}
+	.s_form {
+    	padding: 10px 10px 10px 30px;
+	}
+	.btn_s {
+    	padding: 10px 5px 0;
+    	font-size: 15px;
+    }
+
+    /*feature start*/
+	.feature {
+    	margin: 0 0 60px;
+	}
+	.content {
+    	padding: 0 0 40px;
+	}
+	.f_h1{
+		padding: 0 0 15px;
+		font-size: 30px;
+	}
+	.item{
+		margin: 20px 0 0;
+		padding: 20px 10px 25px 10px;
+		text-align: center;
+	}
+	.i_icon img {
+    	padding: 10px 10px 25px;
+	}
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*header start*/
+	header{
+		padding: 15px 0;
+	}
+	.menu ul li a {
+    	    padding: 5px 55px 5px 0 !important;
+	}
+	.btn_get {
+	    font-size: 17px;
+	    padding: 12px 0 0;
+	    width: 190px;
+	    height: 50px;
+	}
+
+	/*help start*/
+	.help {
+    	padding: 40px 0 75px;
+	}
+	.h_h1{
+		padding: 0 0 10px;
+		font-size: 42px;
+	}
+
+	/*search start*/
+	.search{
+		padding: 60px 0 70px;
+	}
+	.cmn_h1{
+		font-size: 35px;
+	}
+	.s_h3 {
+    	font-size: 17px;
+	}
+	.s_p {
+    	padding: 0 40px;
+	}
+	.s_icon i {
+    	top: 20px;
+    	left: 15px;
+	}
+	.s_form {
+    	padding: 15px 45px;
+	}
+	.btn_s {
+    	padding: 14px 25px 0;
+    }
+
+    /*feature start*/
+	.feature {
+    	margin: 0 0 70px;
+	}
+	.content {
+    	padding: 0 30px 60px;
+	}
+	.f_h1{
+		padding: 0 0 25px;
+		font-size: 35px;
+	}
+	.item{
+		padding: 30px 30px 40px 30px;
+		text-align: center;
+	}
+	.i_icon img {
+    	padding: 10px 10px 25px;
+	}
+
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /*header start*/
+	header{
+		padding: 20px 0;
+	}
+	.menu ul li a {
+    	    padding: 10px 55px 10px 0 !important;
+	}
+
+	/*help start*/
+	.help {
+    	padding: 60px 0 90px;
+	}
+	.h_h1{
+		padding: 0 0 10px;
+		font-size: 48px;
+	}
+
+	/*search start*/
+	.search{
+		padding: 60px 0 90px;
+	}
+	.cmn_h1{
+		font-size: 38px;
+	}
+	.s_p {
+    	padding: 0 120px;
+	}
+	.s_icon i {
+    	top: 20px;
+    	left: 15px;
+	}
+	.s_form {
+    	padding: 15px 45px;
+	}
+	.btn_s {
+    	padding: 14px 25px 0;
+	}
+
+	/*feature start*/
+	.feature {
+    	margin: 0 0 90px;
+	}
+	.content {
+    	padding: 0 50px 60px;
+	}
+	.f_h1{
+		padding: 0 0 25px;
+	}
+	.item{
+		padding: 45px 50px 50px 50px;
+		text-align: center;
+	}
+	.i_icon img {
+    	padding: 10px 10px 25px;
+	}
+
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /*header start*/
+	.menu ul li a {
+    	padding:0 35px 0 0 !important;
+	}
+
+	/*help start*/
+	.h_h1{
+		font-size: 50px;
+	}
+
+	/*search start*/
+	.s_p {
+    	padding: 0 10px;
+	}
+ }
+
+/* Extra large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+	/*search start*/
+	.s_p {
+    	padding: 0 50px;
+	}
+ }
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    
+ }
